@@ -1,0 +1,14 @@
+package com.tear.ioc.bean.exception;
+
+/**
+ * ???????????bean??????????????
+ * @author rongdi
+ *
+ */
+@SuppressWarnings("serial")
+public class BeanCreateException extends RuntimeException {
+
+	public BeanCreateException(String e) {
+		super(e);
+	}
+}
